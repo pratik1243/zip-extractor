@@ -1,0 +1,209 @@
+body {
+  background-color: #f9f9f9;
+}
+
+.App {
+  padding: 12px;
+}
+
+.inner-file-sec {
+  max-width: 610px;
+  padding: 19px;
+  border: 1.5px dashed #c8c4c4;
+  border-radius: 5px;
+  margin: auto;
+  background-color: white;
+  transition: all 1s;
+  position: relative;
+}
+
+.upload-file-sec {
+  margin-top: 20px;
+
+}
+
+.upload-file-sec .zip-logo-head-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload-file-sec .zip-logo-head {
+  height: 40px;
+  width: 40px;
+}
+
+.upload-file-sec .zip-logo-head-sec h3 {
+  font-size: 23px;
+  margin-left: 10px;
+}
+
+.file-tree-sec {
+  max-width: 600px;
+  margin-top: 27px;
+  max-height: 340px;
+  overflow-y: auto;
+  padding: 12px 8px;
+  border: 1px solid #dddbdb;
+  border-radius: 4px;
+  background-color: #f5f1f13d;
+}
+
+.TreeNode {
+  padding: 2px 0px;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #363535;
+}
+
+.TreeNode .EditableName {
+  cursor: default;
+  margin-left: 5px;
+}
+
+.TreeNode:has(section) .EditableName:hover {
+  color: rgb(40, 56, 194);
+  cursor: pointer;
+  text-decoration: underline solid rgb(40, 56, 194) 0.5px;
+}
+
+.file-tree-sec .FolderTree .TreeNode:nth-child(1) {
+  font-weight: 600;
+  color: black !important;
+}
+
+.arrow-icon {
+  display: inline-block;  
+  width: 18px;
+}
+
+.arrow-icon svg {
+  font-size: 21px;
+  position: relative;
+  top: 4px;
+  color: rgb(57, 56, 56) !important;
+}
+
+.file-icon {
+  margin-bottom: -2px;
+  display: inline-block;
+}
+
+.caretContainer {
+  cursor: pointer;
+  color: black !important;
+}
+
+.TreeNodeToolBar {
+  display: none !important;
+}
+
+.clear-file-sec {
+  margin-top: 30px;
+}
+
+.clear-file {
+  background-color: #8d8585bf;
+  color: white;
+  outline: none;
+  border-width: 0px;
+  cursor: pointer;
+  padding: 11px 17px;
+  border-radius: 4px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.clear-file .arrow-icon {
+  font-size: 20px;
+  color: white !important;
+  margin-right: 7px;
+}
+
+.zip-heading {
+  font-family: system-ui;
+  font-size: 20px;
+  margin: 0;
+  color: rgb(84, 83, 83);
+}
+
+.zip-heading-para {
+  font-family: system-ui;
+  font-size: 14px;
+  margin: 0;
+  color: rgb(133, 130, 130);
+  margin-top: 5px;
+}
+
+.or-txt {
+  color: #888585;
+  font-size: 400;
+}
+
+.upload-section {
+  text-align: center;
+  padding: 21px 0px;
+}
+
+.drag-txt {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  color: rgb(107, 106, 106);
+  margin-bottom: 0px;
+}
+
+.upload-btn {
+  background-color: blue;
+  padding: 12px 9px;
+  width: 160px;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  position: relative;
+  z-index: 100;
+}
+
+.file-btn {
+  opacity: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  position: absolute;
+  z-index: 2;
+  pointer-events: auto;
+}
+
+.drop-event{
+  pointer-events: none;
+}
+
+
+.file-txt-sec {
+  text-align: center;
+  cursor: pointer;
+}
+
+.file-txt-sec .file-txt1 {
+  font-size: 20px;
+  display: block;
+  color: white;
+}
+
+.file-txt-sec .file-txt2 {
+  font-size: 14px;
+  display: block;
+  color: rgb(227, 225, 225);
+}
+
+.error-msg{
+  color: red;
+  font-size: 14px;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 17px;
+}
