@@ -208,3 +208,13 @@ body {
   display: block;
   margin-bottom: 17px;
 }
+
+@media screen and (max-width: 600px) {
+  .TreeNode:has(section){
+    margin-left: 17px !important;
+  }
+
+  .TreeNode{
+    margin-left: 10px !important;
+  }
+}
