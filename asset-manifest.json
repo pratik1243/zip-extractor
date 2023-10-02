@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/zip-extractor/static/css/main.be7b071a.css",
+    "main.js": "/zip-extractor/static/js/main.9fee2f3d.js",
+    "static/js/787.2c0666cf.chunk.js": "/zip-extractor/static/js/787.2c0666cf.chunk.js",
+    "static/media/sass.png": "/zip-extractor/static/media/sass.91714f748188b46f4e33.png",
+    "static/media/physics.png": "/zip-extractor/static/media/physics.86c8d9eba03e29814d2a.png",
+    "static/media/video.png": "/zip-extractor/static/media/video.825fa04ed0470feedc47.png",
+    "static/media/svg-file.png": "/zip-extractor/static/media/svg-file.e7af9d188517ec70d38f.png",
+    "static/media/zip.png": "/zip-extractor/static/media/zip.92c79558e3f09828ee0b.png",
+    "static/media/open-folder.png": "/zip-extractor/static/media/open-folder.a90b0d8f061320152699.png",
+    "static/media/git.png": "/zip-extractor/static/media/git.63b94516b0c8926a967f.png",
+    "static/media/info.png": "/zip-extractor/static/media/info.df5172754eb4e8e0472f.png",
+    "static/media/json.png": "/zip-extractor/static/media/json.c7050d5ab4846c0c968b.png",
+    "static/media/excel.png": "/zip-extractor/static/media/excel.f7ad53809690a1807fa6.png",
+    "static/media/html.png": "/zip-extractor/static/media/html.6e930594286d8afe4c79.png",
+    "static/media/pdf.png": "/zip-extractor/static/media/pdf.667d479b145e6ddfdeb8.png",
+    "static/media/star.png": "/zip-extractor/static/media/star.d0cbd94e0a4a62fc2bf4.png",
+    "static/media/css-3.png": "/zip-extractor/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/js.png": "/zip-extractor/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/photo.png": "/zip-extractor/static/media/photo.9789e022157f5994cdc5.png",
+    "static/media/word.png": "/zip-extractor/static/media/word.dda7dbf27394665ca514.png",
+    "index.html": "/zip-extractor/index.html",
+    "main.be7b071a.css.map": "/zip-extractor/static/css/main.be7b071a.css.map",
+    "main.9fee2f3d.js.map": "/zip-extractor/static/js/main.9fee2f3d.js.map",
+    "787.2c0666cf.chunk.js.map": "/zip-extractor/static/js/787.2c0666cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be7b071a.css",
+    "static/js/main.9fee2f3d.js"
+  ]
+}
