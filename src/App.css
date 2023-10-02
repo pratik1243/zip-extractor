@@ -19,7 +19,6 @@ body {
 
 .upload-file-sec {
   margin-top: 20px;
-
 }
 
 .upload-file-sec .zip-logo-head-sec {
@@ -50,12 +49,15 @@ body {
 }
 
 .TreeNode {
-  padding: 2px 0px;
+  /* padding: 2px 0px; */
   word-break: break-all;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   color: #363535;
+  margin-bottom: 3px;
+  display: flex;
+  align-items: center;
 }
 
 .TreeNode .EditableName {
@@ -75,7 +77,7 @@ body {
 }
 
 .arrow-icon {
-  display: inline-block;  
+  display: inline-block;
   width: 18px;
 }
 
@@ -178,10 +180,9 @@ body {
   pointer-events: auto;
 }
 
-.drop-event{
+.drop-event {
   pointer-events: none;
 }
-
 
 .file-txt-sec {
   text-align: center;
@@ -200,7 +201,7 @@ body {
   color: rgb(227, 225, 225);
 }
 
-.error-msg{
+.error-msg {
   color: red;
   font-size: 14px;
   font-weight: 400;
